@@ -1,28 +1,26 @@
-ion-menu-button {
-  color: var(--ion-color-primary);
+ion-card {
+  --background: #29df57; // Warna latar belakang kartu
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
 }
 
-#container {
+ion-card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #141515; // Warna teks nama
   text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-card-subtitle {
+  font-size: 1.2rem;
+  color: #1b1a1a; // Warna teks NIM
+  text-align: center;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+ion-card-content {
+  font-size: 1rem;
+  color: #333;
+  padding: 16px;
+  text-align: center;
 }
